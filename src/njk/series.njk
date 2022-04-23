@@ -3,19 +3,18 @@
 
 {% block content %}
 <article class="container">
-  <h1>Baseball teams</h1>
+  <h1>World Series</h1>
   <p>Intro text here.</p>
   <div class="row">
-    {% for franchises in teams.clubs %}
+    {% for ws in teams.series %}
     <div class="col-sm-12 col-md-6 col-lg-4">
       <div class="card">
         <div class="card-body">
-          <h5 class="card-title">{{ franchises.team }}</h5>
-          <p class="card-text">{{ franchises.league }}</p>
-          <p class="card-text">Manager: {{ franchises.manager }}</p>
+          <h5 class="card-title">{{ ws.year }} ({{ ws.record }})</h5>
+          <p class="card-text">Winning team: {{ ws.winner }} ({{ ws.winrecord }})</p>
+          <p class="card-text">Losing team: {{ ws.loser }} ({{ ws.loserecord }})</p>
           <p class="card-text">General Manager: {{ franchises.gm }}</p>
           <p class="card-text">Ballpark: {{ franchises.park }}</p>
-          <a href="blog/{{ franchises.slug }}.html" class="btn btn-primary">Read more</a>
         </div>
       </div>
     </div>

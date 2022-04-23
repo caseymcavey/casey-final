@@ -240,5 +240,15 @@
       "manager": "Dave Martinez",
       "park": "Nationals Park"
     }
+  ],
+  "series": [
+    {
+      "year": 2021,
+      "winner": "Atlanta Braves",
+      "loser": "Houston Astros",
+      "record": "4-2",
+      "winrecord": "88-73",
+      "loserecord": "95-67"
+    }
   ]
 }

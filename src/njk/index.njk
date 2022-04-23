@@ -1,7 +1,25 @@
 {% extends '_templates/base.njk' %}
+{% set relative_path = "../" %}
 
 {% block content %}
-<div class="container">
-  <p>Content goes here</p>
-</div>
+<article class="container">
+  <h1>Baseball teams</h1>
+  <p>Intro text here.</p>
+  <div class="row">
+    {% for franchises in teams.clubs %}
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">{{ franchises.team }}</h5>
+          <p class="card-text">{{ franchises.league }}</p>
+          <p class="card-text">Manager: {{ franchises.manager }}</p>
+          <p class="card-text">General Manager: {{ franchises.gm }}</p>
+          <p class="card-text">Ballpark: {{ franchises.park }}</p>
+          <a href="blog/{{ franchises.slug }}.html" class="btn btn-primary">Read more</a>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</article>
 {% endblock %}
