@@ -10,6 +10,18 @@
       "type": "sheet",
       "name": "bookstores"
     }
+    ,
+    {
+      "fileId": "1nxgTNdR8Omopy1rvkvrEVmPqzwcWpgzD8wAfBCiFk5c",
+      "type": "sheet",
+      "name": "teams"
+    }
+    ,
+    {
+      "fileId": "1VvijZIFWa5ITJRurBR0XEOF73-2HBMhN_sCtkD1ZnG0",
+      "type": "doc",
+      "name": "blog"
+    }
   ],
   "to_bake": [
     {
@@ -18,6 +30,14 @@
       "array": "books",
       "slug": "slug",
       "path": "books"
+    }
+    ,
+    {
+      "template": "bake-blog",
+      "data": "blog",
+      "array": "blogs",
+      "slug": "slug",
+      "path": "blog"
     }
   ]
 }

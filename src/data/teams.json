@@ -1,0 +1,244 @@
+{
+  "clubs": [
+    {
+      "team": "Arizona Diamondbacks",
+      "slug": "diamondbacks",
+      "league": "NL",
+      "gm": "Mike Hazen",
+      "manager": "Torey Lovullo",
+      "park": "Chase Field"
+    },
+    {
+      "team": "Atlanta Braves",
+      "slug": "braves",
+      "league": "NL",
+      "gm": "Alex Anthopoulos",
+      "manager": "Brian Snitker",
+      "park": "Truist Park"
+    },
+    {
+      "team": "Baltimore Orioles",
+      "slug": "orioles",
+      "league": "AL",
+      "gm": "Mike Elias",
+      "manager": "Brandon Hyde",
+      "park": "Oriole Park at Camden Yards"
+    },
+    {
+      "team": "Boston Red Sox",
+      "slug": "redsox",
+      "league": "AL",
+      "gm": "Brian O'Halloran",
+      "manager": "Alex Cora",
+      "park": "Fenway Park"
+    },
+    {
+      "team": "Chicago Cubs",
+      "slug": "cubs",
+      "league": "NL",
+      "gm": "Carter Hawkins",
+      "manager": "David Ross",
+      "park": "Wrigley Field"
+    },
+    {
+      "team": "Chicago White Sox",
+      "slug": "whitesox",
+      "league": "AL",
+      "gm": "Rick Hahn",
+      "manager": "Tony LaRussa",
+      "park": "Guaranteed Rate Field"
+    },
+    {
+      "team": "Cincinnati Reds",
+      "slug": "redsox",
+      "league": "NL",
+      "gm": "Nick Krall",
+      "manager": "David Bell",
+      "park": "Great American Ball Park"
+    },
+    {
+      "team": "Cleveland Guardians",
+      "slug": "guardians",
+      "league": "AL",
+      "gm": "Mike Chernoff",
+      "manager": "Terry Francona",
+      "park": "Progressive Field"
+    },
+    {
+      "team": "Colorado Rockies",
+      "slug": "rockies",
+      "league": "NL",
+      "gm": "Bill Schmidt",
+      "manager": "Bud Black",
+      "park": "Coors Field"
+    },
+    {
+      "team": "Detroit Tigers",
+      "slug": "tigers",
+      "league": "AL",
+      "gm": "Al Avila",
+      "manager": "AJ Hinch",
+      "park": "Comerica Park"
+    },
+    {
+      "team": "Houston Astros",
+      "slug": "astros",
+      "league": "AL",
+      "gm": "James Click",
+      "manager": "Dusty Baker",
+      "park": "Minute Maid Park"
+    },
+    {
+      "team": "Kansas City Royals",
+      "slug": "rangers",
+      "league": "AL",
+      "gm": "JJ Picollo",
+      "manager": "Mike Matheny",
+      "park": "Kauffman Stadium"
+    },
+    {
+      "team": "Los Angeles Angels",
+      "slug": "angels",
+      "league": "AL",
+      "gm": "Perry Minasian",
+      "manager": "Joe Maddon",
+      "park": "Angel Stadium"
+    },
+    {
+      "team": "Los Angeles Dodgers",
+      "slug": "dodgers",
+      "league": "NL",
+      "gm": "Brandon Gomes",
+      "manager": "Dave Roberts",
+      "park": "Dodger Stadium"
+    },
+    {
+      "team": "Miami Marlins",
+      "slug": "marlins",
+      "league": "NL",
+      "gm": "Kim Ng",
+      "manager": "Don Mattingly",
+      "park": "LoanDepot Park"
+    },
+    {
+      "team": "Milwaukee Brewers",
+      "slug": "brewers",
+      "league": "NL",
+      "gm": "Matt Arnold",
+      "manager": "Craig Counsell",
+      "park": "American Family Field"
+    },
+    {
+      "team": "Minnesota Twins",
+      "slug": "twins",
+      "league": "AL",
+      "gm": "Thad Levine",
+      "manager": "Rocco Baldelli",
+      "park": "Target Field"
+    },
+    {
+      "team": "New York Mets",
+      "slug": "mets",
+      "league": "NL",
+      "gm": "Billy Eppler",
+      "manager": "Buck Showalter",
+      "park": "Citi Field"
+    },
+    {
+      "team": "New York Yankees",
+      "slug": "yankees",
+      "league": "AL",
+      "gm": "Brian Cashman",
+      "manager": "Aaron Boone",
+      "park": "Yankee Stadium"
+    },
+    {
+      "team": "Oakland Athletics",
+      "slug": "athletics",
+      "league": "AL",
+      "gm": "David Forst",
+      "manager": "Mark Kotsay",
+      "park": "RingCentral Coliseum"
+    },
+    {
+      "team": "Philadelphia Phillies",
+      "slug": "phillies",
+      "league": "NL",
+      "gm": "Sam Fuld",
+      "manager": "Joe Girardi",
+      "park": "Citizens Bank Park"
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "slug": "pirates",
+      "league": "NL",
+      "gm": "Ben Cherington",
+      "manager": "Derek Shelton",
+      "park": "PNC Park"
+    },
+    {
+      "team": "San Diego Padres",
+      "slug": "padres",
+      "league": "NL",
+      "gm": "AJ Preller",
+      "manager": "Bob Melvin",
+      "park": "Petco Park"
+    },
+    {
+      "team": "San Francisco Giants",
+      "slug": "giants",
+      "league": "NL",
+      "gm": "Scott Harris",
+      "manager": "Gabe Kapler",
+      "park": "Oracle Park"
+    },
+    {
+      "team": "Seattle Mariners",
+      "slug": "mariners",
+      "league": "AL",
+      "gm": "Jerry Dipoto",
+      "manager": "Scott Servais",
+      "park": "T-Mobile Park"
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "slug": "cardinals",
+      "league": "NL",
+      "gm": "Mike Girsch",
+      "manager": "Oliver Marmol",
+      "park": "Busch Stadium"
+    },
+    {
+      "team": "Tampa Bay Rays",
+      "slug": "rays",
+      "league": "AL",
+      "gm": "Peter Bendix",
+      "manager": "Kevin Cash",
+      "park": "Tropicana Field"
+    },
+    {
+      "team": "Texas Rangers",
+      "slug": "rangers",
+      "league": "AL",
+      "gm": "Chris Young",
+      "manager": "Chris Woodward",
+      "park": "Globe Life Field"
+    },
+    {
+      "team": "Toronto Blue Jays",
+      "slug": "jays",
+      "league": "AL",
+      "gm": "Ross Atkins",
+      "manager": "Charlie Montoyo",
+      "park": "Rogers Centre"
+    },
+    {
+      "team": "Washington Nationals",
+      "slug": "nationals",
+      "league": "NL",
+      "gm": "Mike Rizzo",
+      "manager": "Dave Martinez",
+      "park": "Nationals Park"
+    }
+  ]
+}
