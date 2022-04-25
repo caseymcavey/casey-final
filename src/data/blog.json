@@ -3,6 +3,9 @@
     {
       "slug": "diamondbacks",
       "headline": "Arizona Diamondbacks",
+      "league": "NL",
+      "division": "West",
+      "image": "chase.jpeg",
       "post": [
         {
           "type": "text",

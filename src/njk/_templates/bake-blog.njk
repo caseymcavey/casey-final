@@ -4,14 +4,17 @@
 
 {% block page_title %}{{ headline }}{% endblock %}
 
-{% block page_description %}{{ headline }} by Capt. Crit McGillicutty{% endblock %}
+{% block page_description %}{{ headline }}{% endblock %}
 
 {% block content %}
   <article class="container">
     <div class="row">
-      <div class="col-sm-8">
+      <div class="col-lg-6">
         <img src="../img/{{ image }}" alt="" class="img-fluid mb-4">
+      </div>
+      <div class="col-lg-6">
         <h1>{{ headline }}</h1>
+        <h3>{{ league }} {{ division }}</h3>
         {{ prose(post) }}
       </div>
     </div>
