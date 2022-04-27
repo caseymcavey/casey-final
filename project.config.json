@@ -9,16 +9,16 @@
     {
       "fileId": "1VvijZIFWa5ITJRurBR0XEOF73-2HBMhN_sCtkD1ZnG0",
       "type": "doc",
-      "name": "blog"
+      "name": "pages"
     }
   ],
   "to_bake": [
     {
-      "template": "bake-blog",
-      "data": "blog",
-      "array": "blogs",
+      "template": "bake-pages",
+      "data": "pages",
+      "array": "pages",
       "slug": "slug",
-      "path": "blog"
+      "path": "pages"
     }
   ]
 }
