@@ -4,17 +4,22 @@
 <article class="container">
   <h1>Baseball teams</h1>
   <p>Intro text here.</p>
-  <div class="row">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5">
     {% for franchises in teams.clubs %}
-    <div class="col-sm-12 col-md-6 col-lg-4">
-      <div class="card">
+    <div class="col mb-4">
+      <div class="card h-100">
         <div class="card-body">
-          <h5 class="card-title">{{ franchises.team }}</h5>
-          <p class="card-text">{{ franchises.league }}</p>
+          <img class="card-img-top" src="../img/logos/{{ franchises.slug }}.png">
+          <h3 class="card-title">{{ franchises.team }}</h3>
+          <p class="card-text">{{ franchises.league }} {{ franchises.division }}</p>
           <p class="card-text">Manager: {{ franchises.manager }}</p>
           <p class="card-text">General Manager: {{ franchises.gm }}</p>
           <p class="card-text">Ballpark: {{ franchises.park }}</p>
-          <a href="blog/{{ franchises.slug }}.html" class="btn btn-primary">Team Page</a>
+        </div>
+        <div class="card-footer">
+          <div class="text-center">
+            <a href="blog/{{ franchises.slug }}.html" class="btn btn-primary">Team Page</a>
+          </div>
         </div>
       </div>
     </div>

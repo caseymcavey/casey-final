@@ -1,51 +1,6 @@
 {
   "clubs": [
     {
-      "team": "Arizona Diamondbacks",
-      "slug": "diamondbacks",
-      "league": "NL",
-      "division": "West",
-      "gm": "Mike Hazen",
-      "manager": "Torey Lovullo",
-      "park": "Chase Field"
-    },
-    {
-      "team": "Atlanta Braves",
-      "slug": "braves",
-      "league": "NL",
-      "division": "East",
-      "gm": "Alex Anthopoulos",
-      "manager": "Brian Snitker",
-      "park": "Truist Park"
-    },
-    {
-      "team": "Baltimore Orioles",
-      "slug": "orioles",
-      "league": "AL",
-      "division": "East",
-      "gm": "Mike Elias",
-      "manager": "Brandon Hyde",
-      "park": "Oriole Park at Camden Yards"
-    },
-    {
-      "team": "Boston Red Sox",
-      "slug": "redsox",
-      "league": "AL",
-      "division": "East",
-      "gm": "Brian O'Halloran",
-      "manager": "Alex Cora",
-      "park": "Fenway Park"
-    },
-    {
-      "team": "Chicago Cubs",
-      "slug": "cubs",
-      "league": "NL",
-      "division": "Central",
-      "gm": "Carter Hawkins",
-      "manager": "David Ross",
-      "park": "Wrigley Field"
-    },
-    {
       "team": "Chicago White Sox",
       "slug": "whitesox",
       "league": "AL",
@@ -53,15 +8,6 @@
       "gm": "Rick Hahn",
       "manager": "Tony LaRussa",
       "park": "Guaranteed Rate Field"
-    },
-    {
-      "team": "Cincinnati Reds",
-      "slug": "redsox",
-      "league": "NL",
-      "division": "Central",
-      "gm": "Nick Krall",
-      "manager": "David Bell",
-      "park": "Great American Ball Park"
     },
     {
       "team": "Cleveland Guardians",
@@ -73,15 +19,6 @@
       "park": "Progressive Field"
     },
     {
-      "team": "Colorado Rockies",
-      "slug": "rockies",
-      "league": "NL",
-      "division": "West",
-      "gm": "Bill Schmidt",
-      "manager": "Bud Black",
-      "park": "Coors Field"
-    },
-    {
       "team": "Detroit Tigers",
       "slug": "tigers",
       "league": "AL",
@@ -91,58 +28,13 @@
       "park": "Comerica Park"
     },
     {
-      "team": "Houston Astros",
-      "slug": "astros",
-      "league": "AL",
-      "division": "West",
-      "gm": "James Click",
-      "manager": "Dusty Baker",
-      "park": "Minute Maid Park"
-    },
-    {
       "team": "Kansas City Royals",
-      "slug": "rangers",
+      "slug": "royals",
       "league": "AL",
       "division": "Central",
       "gm": "JJ Picollo",
       "manager": "Mike Matheny",
       "park": "Kauffman Stadium"
-    },
-    {
-      "team": "Los Angeles Angels",
-      "slug": "angels",
-      "league": "AL",
-      "division": "West",
-      "gm": "Perry Minasian",
-      "manager": "Joe Maddon",
-      "park": "Angel Stadium"
-    },
-    {
-      "team": "Los Angeles Dodgers",
-      "slug": "dodgers",
-      "league": "NL",
-      "division": "West",
-      "gm": "Brandon Gomes",
-      "manager": "Dave Roberts",
-      "park": "Dodger Stadium"
-    },
-    {
-      "team": "Miami Marlins",
-      "slug": "marlins",
-      "league": "NL",
-      "division": "East",
-      "gm": "Kim Ng",
-      "manager": "Don Mattingly",
-      "park": "LoanDepot Park"
-    },
-    {
-      "team": "Milwaukee Brewers",
-      "slug": "brewers",
-      "league": "NL",
-      "division": "Central",
-      "gm": "Matt Arnold",
-      "manager": "Craig Counsell",
-      "park": "American Family Field"
     },
     {
       "team": "Minnesota Twins",
@@ -154,13 +46,22 @@
       "park": "Target Field"
     },
     {
-      "team": "New York Mets",
-      "slug": "mets",
-      "league": "NL",
+      "team": "Baltimore Orioles",
+      "slug": "orioles",
+      "league": "AL",
       "division": "East",
-      "gm": "Billy Eppler",
-      "manager": "Buck Showalter",
-      "park": "Citi Field"
+      "gm": "Mike Elias",
+      "manager": "Brandon Hyde",
+      "park": "Oriole Park"
+    },
+    {
+      "team": "Boston Red Sox",
+      "slug": "redsox",
+      "league": "AL",
+      "division": "East",
+      "gm": "Brian O'Halloran",
+      "manager": "Alex Cora",
+      "park": "Fenway Park"
     },
     {
       "team": "New York Yankees",
@@ -172,6 +73,42 @@
       "park": "Yankee Stadium"
     },
     {
+      "team": "Tampa Bay Rays",
+      "slug": "rays",
+      "league": "AL",
+      "division": "East",
+      "gm": "Peter Bendix",
+      "manager": "Kevin Cash",
+      "park": "Tropicana Field"
+    },
+    {
+      "team": "Toronto Blue Jays",
+      "slug": "jays",
+      "league": "AL",
+      "division": "East",
+      "gm": "Ross Atkins",
+      "manager": "Charlie Montoyo",
+      "park": "Rogers Centre"
+    },
+    {
+      "team": "Houston Astros",
+      "slug": "astros",
+      "league": "AL",
+      "division": "West",
+      "gm": "James Click",
+      "manager": "Dusty Baker",
+      "park": "Minute Maid Park"
+    },
+    {
+      "team": "Los Angeles Angels",
+      "slug": "angels",
+      "league": "AL",
+      "division": "West",
+      "gm": "Perry Minasian",
+      "manager": "Joe Maddon",
+      "park": "Angel Stadium"
+    },
+    {
       "team": "Oakland Athletics",
       "slug": "athletics",
       "league": "AL",
@@ -179,6 +116,96 @@
       "gm": "David Forst",
       "manager": "Mark Kotsay",
       "park": "RingCentral Coliseum"
+    },
+    {
+      "team": "Seattle Mariners",
+      "slug": "mariners",
+      "league": "AL",
+      "division": "West",
+      "gm": "Jerry Dipoto",
+      "manager": "Scott Servais",
+      "park": "T-Mobile Park"
+    },
+    {
+      "team": "Texas Rangers",
+      "slug": "rangers",
+      "league": "AL",
+      "division": "West",
+      "gm": "Chris Young",
+      "manager": "Chris Woodward",
+      "park": "Globe Life Field"
+    },
+    {
+      "team": "Chicago Cubs",
+      "slug": "cubs",
+      "league": "NL",
+      "division": "Central",
+      "gm": "Carter Hawkins",
+      "manager": "David Ross",
+      "park": "Wrigley Field"
+    },
+    {
+      "team": "Cincinnati Reds",
+      "slug": "redsox",
+      "league": "NL",
+      "division": "Central",
+      "gm": "Nick Krall",
+      "manager": "David Bell",
+      "park": "Great American Ball Park"
+    },
+    {
+      "team": "Milwaukee Brewers",
+      "slug": "brewers",
+      "league": "NL",
+      "division": "Central",
+      "gm": "Matt Arnold",
+      "manager": "Craig Counsell",
+      "park": "American Family Field"
+    },
+    {
+      "team": "Pittsburgh Pirates",
+      "slug": "pirates",
+      "league": "NL",
+      "division": "Central",
+      "gm": "Ben Cherington",
+      "manager": "Derek Shelton",
+      "park": "PNC Park"
+    },
+    {
+      "team": "St. Louis Cardinals",
+      "slug": "cardinals",
+      "league": "NL",
+      "division": "Central",
+      "gm": "Mike Girsch",
+      "manager": "Oliver Marmol",
+      "park": "Busch Stadium"
+    },
+    {
+      "team": "Atlanta Braves",
+      "slug": "braves",
+      "league": "NL",
+      "division": "East",
+      "gm": "Alex Anthopoulos",
+      "manager": "Brian Snitker",
+      "park": "Truist Park"
+    },
+    {
+      "team": "Miami Marlins",
+      "slug": "marlins",
+      "league": "NL",
+      "division": "East",
+      "gm": "Kim Ng",
+      "manager": "Don Mattingly",
+      "park": "LoanDepot Park"
+    },
+    {
+      "team": "New York Mets",
+      "slug": "mets",
+      "league": "NL",
+      "division": "East",
+      "gm": "Billy Eppler",
+      "manager": "Buck Showalter",
+      "park": "Citi Field"
     },
     {
       "team": "Philadelphia Phillies",
@@ -190,13 +217,40 @@
       "park": "Citizens Bank Park"
     },
     {
-      "team": "Pittsburgh Pirates",
-      "slug": "pirates",
+      "team": "Washington Nationals",
+      "slug": "nationals",
       "league": "NL",
-      "division": "Central",
-      "gm": "Ben Cherington",
-      "manager": "Derek Shelton",
-      "park": "PNC Park"
+      "division": "East",
+      "gm": "Mike Rizzo",
+      "manager": "Dave Martinez",
+      "park": "Nationals Park"
+    },
+    {
+      "team": "Arizona Diamondbacks",
+      "slug": "diamondbacks",
+      "league": "NL",
+      "division": "West",
+      "gm": "Mike Hazen",
+      "manager": "Torey Lovullo",
+      "park": "Chase Field"
+    },
+    {
+      "team": "Colorado Rockies",
+      "slug": "rockies",
+      "league": "NL",
+      "division": "West",
+      "gm": "Bill Schmidt",
+      "manager": "Bud Black",
+      "park": "Coors Field"
+    },
+    {
+      "team": "Los Angeles Dodgers",
+      "slug": "dodgers",
+      "league": "NL",
+      "division": "West",
+      "gm": "Brandon Gomes",
+      "manager": "Dave Roberts",
+      "park": "Dodger Stadium"
     },
     {
       "team": "San Diego Padres",
@@ -215,60 +269,6 @@
       "gm": "Scott Harris",
       "manager": "Gabe Kapler",
       "park": "Oracle Park"
-    },
-    {
-      "team": "Seattle Mariners",
-      "slug": "mariners",
-      "league": "AL",
-      "division": "West",
-      "gm": "Jerry Dipoto",
-      "manager": "Scott Servais",
-      "park": "T-Mobile Park"
-    },
-    {
-      "team": "St. Louis Cardinals",
-      "slug": "cardinals",
-      "league": "NL",
-      "division": "Central",
-      "gm": "Mike Girsch",
-      "manager": "Oliver Marmol",
-      "park": "Busch Stadium"
-    },
-    {
-      "team": "Tampa Bay Rays",
-      "slug": "rays",
-      "league": "AL",
-      "division": "East",
-      "gm": "Peter Bendix",
-      "manager": "Kevin Cash",
-      "park": "Tropicana Field"
-    },
-    {
-      "team": "Texas Rangers",
-      "slug": "rangers",
-      "league": "AL",
-      "division": "West",
-      "gm": "Chris Young",
-      "manager": "Chris Woodward",
-      "park": "Globe Life Field"
-    },
-    {
-      "team": "Toronto Blue Jays",
-      "slug": "jays",
-      "league": "AL",
-      "division": "East",
-      "gm": "Ross Atkins",
-      "manager": "Charlie Montoyo",
-      "park": "Rogers Centre"
-    },
-    {
-      "team": "Washington Nationals",
-      "slug": "nationals",
-      "league": "NL",
-      "division": "East",
-      "gm": "Mike Rizzo",
-      "manager": "Dave Martinez",
-      "park": "Nationals Park"
     }
   ],
   "series": [
