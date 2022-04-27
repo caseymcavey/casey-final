@@ -6,15 +6,49 @@
   <p>Intro text here.</p>
   <div class="row">
     {% for ws in teams.series %}
-    <div class="col-sm-12 col-md-6 col-lg-4">
-      <div class="card">
-        <div class="card-body">
-          <h5 class="card-title">{{ ws.year }} ({{ ws.record }})</h5>
-          <p class="card-text">Winning team: {{ ws.winner }} ({{ ws.winrecord }})</p>
-          <p class="card-text">Losing team: {{ ws.loser }} ({{ ws.loserecord }})</p>
+      <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
+        <div class="card h-100">
+          {% if ws.year != 1994 %}
+            <div class="card-header">
+            <h5 class="card-title text-center">{{ ws.year }}</h5>
+            <p class="text-center mb-0">({{ ws.record }})</p>
+            </div>
+            <div class="card-body">
+              <div class="row">
+                <div class="col-6"><img class="card-img" src="img/logos/{{ ws.winslug }}.png"></div>
+                <div class="col-6"><img class="card-img" src="img/logos/{{ ws.loseslug }}.png"></div>
+              </div>
+              <div class="row justify-content-between">
+                <div class="col-6">
+                  <p class="text-start fw-bold mb-0">{{ ws.winner }}</p>
+                </div>
+                <div class="col-6">
+                  <p class="text-end fw-bold mb-0">{{ ws.loser }}</p>
+                </div>
+              </div>
+              <div class="row justify-content-between">
+                <div class="col-6">
+                  {{ ws.winrecord }}
+                </div>
+                <div class="col-6">
+                  <p class="text-end mb-0">{{ ws.loserecord }}</p>
+                </div>
+              </div>
+            </div>
+          {% endif %}
+          {% if ws.year == 1994 %}
+            <div class="card-header">
+            <h5 class="card-title text-center">{{ ws.year }}</h5>
+            <p class="text-center mb-0">No series held due to players' strike.</p>
+            </div>
+            <div class="card-body">
+              <div class="col-8 offset-2">
+                <img class="card-img-bottom" src="img/logos/mlbpa.png">
+              </div>
+            </div>
+          {% endif %}
         </div>
       </div>
-    </div>
     {% endfor %}
   </div>
 </article>
