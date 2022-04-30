@@ -2,19 +2,18 @@
 
 {% block content %}
 <article class="container">
-  <h1>World Series</h1>
-  <p>Intro text here.</p>
+  <h1 class="text-center pressstart mb-4">World Series</h1>
   <div class="row">
     {% for ws in teams.series %}
       <div class="col-sm-12 col-md-6 col-lg-4 mb-3">
         <div class="card h-100">
           {% if ws.year != 1994 %}
             <div class="card-header">
-            <h5 class="card-title text-center">{{ ws.year }}</h5>
-            <p class="text-center mb-0">({{ ws.record }})</p>
+              <h5 class="card-title text-center pressstart">{{ ws.year }}</h5>
+              <p class="text-center mb-0">({{ ws.record }})</p>
             </div>
             <div class="card-body">
-               <div class="row justify-content-evenly">
+              <div class="row justify-content-evenly">
                 <div class="col-6">
                   <p class="text-center text-success mb-0 fs-3">W</p>
                 </div>
@@ -52,7 +51,7 @@
           {% endif %}
           {% if ws.year == 1994 %}
             <div class="card-header">
-            <h5 class="card-title text-center">{{ ws.year }}</h5>
+            <h5 class="card-title text-center pressstart">{{ ws.year }}</h5>
             <p class="text-center mb-0">No series held due to players' strike.</p>
             </div>
             <div class="card-body">
