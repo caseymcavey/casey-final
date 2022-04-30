@@ -2,23 +2,32 @@
 
 {% block content %}
 <article class="container">
-  <h1>Baseball teams</h1>
-  <p>Intro text here.</p>
+  <h1 class="text-center pressstart mb-4">Teams</h1>
   <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-xl-5">
     {% for franchises in teams.clubs %}
     <div class="col mb-4">
       <div class="card h-100">
         <div class="card-body">
+          <p class="card-text text-center lighttext">{{ franchises.league }} {{ franchises.division }}</p>
           <img class="card-img-top" src="img/logos/{{ franchises.slug }}.png">
-          <h3 class="card-title">{{ franchises.team }}</h3>
-          <p class="card-text">{{ franchises.league }} {{ franchises.division }}</p>
-          <p class="card-text">Manager: {{ franchises.manager }}</p>
-          <p class="card-text">General Manager: {{ franchises.gm }}</p>
-          <p class="card-text">Ballpark: {{ franchises.park }}</p>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">
+              <h3 class="card-title text-center">{{ franchises.team }}</h3>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text text-center"><strong>Manager:</strong> {{ franchises.manager }}</p>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text text-center"><strong>General Manager:</strong> {{ franchises.gm }}</p>
+            </li>
+            <li class="list-group-item">
+              <p class="card-text text-center"><strong>Ballpark:</strong> {{ franchises.park }}</p>
+            </li>
+          </ul>
         </div>
         <div class="card-footer">
           <div class="text-center">
-            <a href="pages/{{ franchises.slug }}.html" class="btn btn-primary">Team Page</a>
+            <a href="pages/{{ franchises.slug }}.html" class="btn btn-secondary pressstart">Team Page</a>
           </div>
         </div>
       </div>

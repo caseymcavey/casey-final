@@ -21,7 +21,30 @@
 // Import partials
 @import "nav";
 @import "jumbotron";
+// Import google fonts
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;600&family=Press+Start+2P&display=swap');
 
 h3 {
   font-size: 1.5rem;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+}
+
+.pressstart {
+  font-family: 'Press Start 2P', cursive;
+}
+
+p {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 400;
+}
+
+strong {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 600;
+}
+
+.lighttext {
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: 300;
 }
