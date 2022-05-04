@@ -1,6 +1,6 @@
-# Baseball Basics - Final project
+# Baseball Basics - Final Project
 
-This is a project created in fulfillment of the requirements for Intro to Coding for Journalists at UT Austin.
+This is a project created in fulfillment of the requirements for the Intro to Coding for Journalists class at UT Austin.
 
 It's a baseball reference website.
 
