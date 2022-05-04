@@ -1,0 +1,186 @@
+{% extends '_templates/base.njk' %}
+
+{% block content %}
+<article class="container">
+  <h1 class="text-center pressstart mb-4">Standings</h1>
+  <p class="text-center">Current to 05-04-2022 1:30pm. Eventually I want to get this to automatically refresh</p>
+  <div class="row justify-content-center">
+    <div class="col-lg-8">
+      <h5>AL Central</h5>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Team</th>
+            <th scope="col">W</th>
+            <th scope="col">L</th>
+            <th scope="col">%</th>
+            <th scope="col">STRK</th>
+            <th scope="col">GB</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for them in standings.standings %}
+           {% if them.divisionid == 202 %}
+            <tr>
+              <th scope="row">{{ them.divisionrank }}</th>
+              <td class="namecolumn">{{ them.teamname }}</td>
+              <td>{{ them.wins }}</td>
+              <td>{{ them.losses }}</td>
+              <td>{{ them.winpct }}</td>
+              <td>{{ them.streakcode }}</td>
+              <td>{{ them.gamesback }}</td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+      <h5>AL East</h5>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Team</th>
+            <th scope="col">W</th>
+            <th scope="col">L</th>
+            <th scope="col">%</th>
+            <th scope="col">STRK</th>
+            <th scope="col">GB</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for them in standings.standings %}
+           {% if them.divisionid == 201 %}
+            <tr>
+              <th scope="row">{{ them.divisionrank }}</th>
+              <td class="namecolumn">{{ them.teamname }}</td>
+              <td>{{ them.wins }}</td>
+              <td>{{ them.losses }}</td>
+              <td>{{ them.winpct }}</td>
+              <td>{{ them.streakcode }}</td>
+              <td>{{ them.gamesback }}</td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+      <h5>AL West</h5>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Team</th>
+            <th scope="col">W</th>
+            <th scope="col">L</th>
+            <th scope="col">%</th>
+            <th scope="col">STRK</th>
+            <th scope="col">GB</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for them in standings.standings %}
+           {% if them.divisionid == 200 %}
+            <tr>
+              <th scope="row">{{ them.divisionrank }}</th>
+              <td class="namecolumn">{{ them.teamname }}</td>
+              <td>{{ them.wins }}</td>
+              <td>{{ them.losses }}</td>
+              <td>{{ them.winpct }}</td>
+              <td>{{ them.streakcode }}</td>
+              <td>{{ them.gamesback }}</td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+      <h5>NL Central</h5>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Team</th>
+            <th scope="col">W</th>
+            <th scope="col">L</th>
+            <th scope="col">%</th>
+            <th scope="col">STRK</th>
+            <th scope="col">GB</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for them in standings.standings %}
+           {% if them.divisionid == 205 %}
+            <tr>
+              <th scope="row">{{ them.divisionrank }}</th>
+              <td class="namecolumn">{{ them.teamname }}</td>
+              <td>{{ them.wins }}</td>
+              <td>{{ them.losses }}</td>
+              <td>{{ them.winpct }}</td>
+              <td>{{ them.streakcode }}</td>
+              <td>{{ them.gamesback }}</td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+      <h5>NL East</h5>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Team</th>
+            <th scope="col">W</th>
+            <th scope="col">L</th>
+            <th scope="col">%</th>
+            <th scope="col">STRK</th>
+            <th scope="col">GB</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for them in standings.standings %}
+           {% if them.divisionid == 204 %}
+            <tr>
+              <th scope="row">{{ them.divisionrank }}</th>
+              <td class="namecolumn">{{ them.teamname }}</td>
+              <td>{{ them.wins }}</td>
+              <td>{{ them.losses }}</td>
+              <td>{{ them.winpct }}</td>
+              <td>{{ them.streakcode }}</td>
+              <td>{{ them.gamesback }}</td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+      <h5>NL West</h5>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Team</th>
+            <th scope="col">W</th>
+            <th scope="col">L</th>
+            <th scope="col">%</th>
+            <th scope="col">STRK</th>
+            <th scope="col">GB</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for them in standings.standings %}
+           {% if them.divisionid == 203 %}
+            <tr>
+              <th scope="row">{{ them.divisionrank }}</th>
+              <td class="namecolumn">{{ them.teamname }}</td>
+              <td>{{ them.wins }}</td>
+              <td>{{ them.losses }}</td>
+              <td>{{ them.winpct }}</td>
+              <td>{{ them.streakcode }}</td>
+              <td>{{ them.gamesback }}</td>
+            </tr>
+            {% endif %}
+          {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </div>
+</article>
+{% endblock %}

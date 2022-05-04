@@ -11,6 +11,12 @@
       "type": "doc",
       "name": "pages"
     }
+    ,
+    {
+      "fileId": "1aymDIVJz_kwn5F9g5b3GO0ZrWzMc2E4id8b41KZ4EXc",
+      "type": "sheet",
+      "name": "standings"
+    }
   ],
   "to_bake": [
     {
