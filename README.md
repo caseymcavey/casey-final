@@ -1,4 +1,10 @@
-# ICJ Project Rig
+# Baseball Basics - Final project
+
+This is a project created in fulfillment of the requirements for Intro to Coding for Journalists at UT Austin.
+
+It's a baseball reference website.
+
+## ICJ Project Rig
 
 This project rig was developed for the [Intro to Coding for Journalists](https://github.com/utdata/icj-class) class taught at different times by two different professors in the School of Journalism and Media, Moody College of Communication, University of Texas at Austin:
 
